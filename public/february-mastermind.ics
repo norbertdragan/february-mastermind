@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//February Mastermind//AI Agent Workflows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:february-mastermind-20260224T190000@ai-talk-affiliated
+DTSTAMP:20260201T120000Z
+DTSTART;TZID=Europe/Lisbon:20260224T190000
+DURATION:PT1H30M
+SUMMARY:February Mastermind: AI Agent Workflows
+LOCATION:Vila Gale, Lisbon
+DESCRIPTION:What agents can do for you\nHow to spin up new OpenClaw agents in 5 minutes\nHow to run agents securely on your computer or on a server\nHow to build and deploy websites and apps from your phone\nWhat's the current state of private AI\nHow to work with multiple agents at the same time\n\nBring a laptop if you want to follow along.
+URL:https://forms.gle/TODO-February-Mastermind
+END:VEVENT
+END:VCALENDAR
