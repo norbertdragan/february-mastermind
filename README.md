@@ -31,11 +31,11 @@ pnpm preview
 
 ## Deploy (GitHub Pages)
 
-This repo includes `.github/workflows/deploy-pages.yml`.
+This project is currently published from `main:/docs`.
 
-1. Push to `main`
-2. In repo settings, set **Pages source** to **GitHub Actions**
-3. Workflow will publish `dist/`
+1. Build with `VITE_BASE_PATH=/february-mastermind/ pnpm build`
+2. Copy `dist/*` into `docs/`
+3. Push to `main` (Pages auto-builds and deploys from `/docs`)
 
 ## Live URL
 
